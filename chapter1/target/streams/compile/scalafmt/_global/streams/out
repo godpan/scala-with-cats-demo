@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mChange report:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Checked: /Users/panguansen/drip/scala-with-cats-demo/chapter1/src/main/scala/json/Json.scala, /Users/panguansen/drip/scala-with-cats-demo/chapter1/src/main/scala/json/JsonWriter.scala, /Users/panguansen/drip/scala-with-cats-demo/chapter1/src/main/scala/json/JsonWriterInstances.scala, /Users/panguansen/drip/scala-with-cats-demo/chapter1/src/main/scala/json/JsonAst.scala, /Users/panguansen/drip/scala-with-cats-demo/chapter1/src/main/scala/json/UseCase.scala, /Users/panguansen/drip/scala-with-cats-demo/chapter1/src/main/scala/json/Person.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Modified: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Unmodified: /Users/panguansen/drip/scala-with-cats-demo/chapter1/src/main/scala/json/Json.scala, /Users/panguansen/drip/scala-with-cats-demo/chapter1/src/main/scala/json/JsonWriter.scala, /Users/panguansen/drip/scala-with-cats-demo/chapter1/src/main/scala/json/JsonWriterInstances.scala, /Users/panguansen/drip/scala-with-cats-demo/chapter1/src/main/scala/json/JsonAst.scala, /Users/panguansen/drip/scala-with-cats-demo/chapter1/src/main/scala/json/UseCase.scala, /Users/panguansen/drip/scala-with-cats-demo/chapter1/src/main/scala/json/Person.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Added: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Removed: [0m
