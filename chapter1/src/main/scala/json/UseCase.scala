@@ -4,7 +4,7 @@ import JsonWriterInstances._
 
 object UseCase {
 
-  def testJsonObject(person: Person): Unit = {
+  def testJsonObject(person: Person) = {
     Json.toJson(person)
   }
 

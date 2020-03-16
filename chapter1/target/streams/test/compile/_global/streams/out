@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/panguansen/drip/scala-with-cats-demo/chapter1/src/test/scala/json/UseCaseTest.scala:4:12: object scalatest is not a member of package org[0m
-[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuite[0m
-[0m[[0m[31merror[0m] [0m[0m           ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/panguansen/drip/scala-with-cats-demo/chapter1/src/test/scala/json/UseCaseTest.scala:6:27: not found: type FunSuite[0m
-[0m[[0m[31merror[0m] [0m[0mclass UseCaseTest extends FunSuite {}[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

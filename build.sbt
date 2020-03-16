@@ -31,7 +31,6 @@ lazy val chapter2 = project
   .settings(commonSettings: _*)
   .dependsOn(common)
 
-
 lazy val compilerOptions = Seq(
   "-unchecked",
   "-feature",
