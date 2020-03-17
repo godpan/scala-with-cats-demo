@@ -15,4 +15,11 @@ class UseCaseSpec extends FlatSpec with Matchers {
     UseCase.testJsonObject(person) should be(personJsonValue)
   }
 
+  "testImplicit" should "json.write(v) equals v json value" in {
+    UseCase.testImplicit(person) should be(personJsonValue)
+  }
+
+  "testSyntax" should "v.toJson equals v json value" in {
+    UseCase.testImplicit(person) should be(personJsonValue)
+  }
 }
