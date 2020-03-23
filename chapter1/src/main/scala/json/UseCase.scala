@@ -18,4 +18,8 @@ object UseCase {
     person.toJson
   }
 
+  def testOption(person: Option[Person]) = {
+    person.toJson
+  }
+
 }
