@@ -1,7 +1,7 @@
 package show
 
-import cats.show
-
-object UseCase {
-
-}
+//import cats.show
+//
+//object UseCase {
+//
+//}
