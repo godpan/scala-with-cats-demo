@@ -1,6 +1,6 @@
 package json
 
-import json.JsonAst.{JsObject, JsString}
+import json.JsonAst.{JsNull, JsObject, JsString}
 import org.scalactic._
 import org.scalatest._
 
@@ -21,5 +21,13 @@ class UseCaseSpec extends FlatSpec with Matchers {
 
   "testSyntax" should "v.toJson equals v json value" in {
     UseCase.testImplicit(person) should be(personJsonValue)
+  }
+
+  "testOption-Some" should "v.toJson equals v json value" in {
+    UseCase.testOption(Some(person)) should be(personJsonValue)
+  }
+
+  "testOption-None" should "v.toJson equals JsNull" in {
+    UseCase.testOption(None) should be(JsNull)
   }
 }
