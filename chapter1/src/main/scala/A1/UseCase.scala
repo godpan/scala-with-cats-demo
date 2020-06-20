@@ -1,4 +1,4 @@
-package printable
+package A1
 
 import PrintableInstances._
 import PrintableSyntax._
