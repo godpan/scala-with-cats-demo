@@ -2,6 +2,9 @@ package A1
 
 import PrintableInstances._
 import PrintableSyntax._
+import cats.Show
+//import CatShowInstances._
+import cats.syntax.show._
 
 object UseCase {
 
@@ -19,6 +22,12 @@ object UseCase {
 
   def printBySyntax(cat: Cat): Unit = {
     cat.print
+  }
+
+  def catShow(cat: Cat): Unit = {
+    import CatShowInstances._
+    val showI = implicitly[Show[Cat]]
+//    println(cat.show)
   }
 
 }
