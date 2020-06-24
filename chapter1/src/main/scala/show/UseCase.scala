@@ -9,5 +9,4 @@ object UseCase {
   def catShow(cat: Cat): String = {
     cat.show
   }
-
 }
