@@ -9,6 +9,11 @@ lazy val commonDependencies = Seq(
   "org.scalatest" %% "scalatest" % "3.0.8"
 )
 
+lazy val commonSettings = Seq(
+  scalacOptions ++= compilerOptions,
+  libraryDependencies ++= commonDependencies
+)
+
 lazy val global = project
   .in(file("."))
   .aggregate(
@@ -43,12 +48,7 @@ lazy val compilerOptions = Seq(
   "utf8"
 )
 
-lazy val commonSettings = Seq(
-  scalacOptions ++= compilerOptions,
-  libraryDependencies ++= commonDependencies
-)
-
-(scalafmtOnCompile in ThisBuild) := true
-(compile in Compile) := {
-  (compile in Compile).dependsOn(scalafmtSbt in Compile).value
-}
+//(scalafmtOnCompile in ThisBuild) := true
+//(compile in Compile) := {
+//  (compile in Compile).dependsOn(scalafmtSbt in Compile).value
+//}

@@ -4,7 +4,7 @@ import json.JsonAst.{JsNull, JsObject, JsString}
 import org.scalactic._
 import org.scalatest._
 
-class UseCaseSpec extends FlatSpec with Matchers {
+class JsonUseCaseSpec extends FlatSpec with Matchers {
 
   val person = Person("Dave", "dave@example.com")
   val personJsonValue = JsObject(

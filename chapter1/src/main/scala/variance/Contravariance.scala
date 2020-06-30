@@ -13,7 +13,7 @@ object Contravariance {
     val shapeWriter: JsonWriter[Shape]   = ???
     val circleWriter: JsonWriter[Circle] = ???
 
-    format(shape, circleWriter)
+//    format(shape, circleWriter)
 
   }
 
