@@ -2,7 +2,7 @@ package A1
 
 import PrintableInstances._
 import PrintableSyntax._
-import cats.Show
+import A1.CatShowInstances._
 import cats.syntax.show._
 
 object UseCase {
@@ -23,11 +23,11 @@ object UseCase {
     cat.print
   }
 
-  def catShow(cat: Cat): Unit = {
-    import cats.instances.int._
-    import cats.instances.string._
-    implicit val catShow = Show[Cat] { cat =>
-      s"${cat.name.show} is a ${cat.age.show} year-old ${cat.color.show} cat." }
+  def formatCatShow(cat: Cat): Unit = {
+    cat.show
+  }
+
+  def printCatShow(cat: Cat): Unit = {
     println(cat.show)
   }
 
